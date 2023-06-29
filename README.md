@@ -16,7 +16,7 @@ To run the code, please first install [PyTorch](https://pytorch.org/get-started/
 Then install the following dependencies using `pip`.
 
 ```
-pip install numpy setproctitle six wandb onedrivedownloader av tqdm matplotlib scipy
+pip install numpy setproctitle six wandb onedrivedownloader av tqdm matplotlib scipy quadprog
 ```
 
 ## Experiments

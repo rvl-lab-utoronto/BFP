@@ -13,9 +13,7 @@ from scipy.ndimage.interpolation import rotate as scipyrotate
 import wandb
 
 from .base import Callback
-
-from contlearn.utils.metrics import AccuracyPerClassMetric, TaskAccuracyMetric
-from contlearn.utils.dc import DiffAugment, ParamDiffAug
+from .utils import AccuracyPerClassMetric, DiffAugment, ParamDiffAug
 
 class FintuneCallback(Callback):
     def __init__(self, args, model, dataset):
